@@ -9,6 +9,7 @@ import Category from "./pages/Category";
 import Article from "./pages/Article";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Card from "./components/Card/Card";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Categories />
       <Banner />
       <SimpleSlider />
+      <Card />
+      <Card />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="category" exact element={<Category />} />

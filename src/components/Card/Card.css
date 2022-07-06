@@ -1,0 +1,47 @@
+.card {
+  border: 3px solid #fff;
+  padding: 20px;
+  display: flex;
+  margin: 20px auto;
+}
+
+.colored-bar {
+  width: 10px;
+  height: 325px;
+  background-color: #3677b5;
+}
+
+.articles-container {
+  width: 610px;
+  height: 325px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.articles-container ul {
+  padding: 0;
+  margin: 0 auto 0;
+  list-style: none;
+
+  display: flex;
+  gap: 1rem;
+}
+
+.articles-container > h2 {
+  top: 0;
+  left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.articles-container > a {
+  height: 80%;
+  text-decoration: underline;
+  align-items: center;
+}

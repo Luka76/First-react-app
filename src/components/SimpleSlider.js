@@ -8,13 +8,37 @@ const clickHandler = () => {
   console.log("komentari");
 };
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}
+
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
-      dots: true,
-      arrows: true,
+      dots: false,
+      infinite: true,
       speed: 500,
       slidesToShow: 1,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
     };
     return (
       <div className="slider">
@@ -23,18 +47,21 @@ export default class SimpleSlider extends Component {
             return (
               <div key={item.tag}>
                 <div className="slider-image">
-                  <img src={item.picture} />
+                  <img src={item.picture} alt="" />
+                  <div className="slider-date">
+                    <p>{item.date}</p>
+                    <p>
+                      <img src={commentIcon} alt="" id="comments" />{" "}
+                      {item.commentsNum} Comments
+                    </p>
+                  </div>
+                  <div className="slider-title">
+                    <h3>{item.title}</h3>
+                  </div>
+                  <button className="slider-button" onClick={clickHandler}>
+                    Read Article
+                  </button>
                 </div>
-                <div className="date-div">
-                  <p>{item.date}</p>
-                  <p>
-                    <img src={commentIcon} /> {item.commentsNum} Comments
-                  </p>
-                </div>
-                <div className="title-div">
-                  <h3>{item.title}</h3>
-                </div>
-                <button onClick={clickHandler}>Read Article</button>
               </div>
             );
           })}
