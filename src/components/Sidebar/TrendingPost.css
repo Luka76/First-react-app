@@ -1,0 +1,54 @@
+.trend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.date-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-posts {
+  border: 0.5px solid #1c1541;
+}
+
+.trending-posts div {
+  height: 114px;
+}
+
+.trending-posts:hover {
+  background-color: #302566;
+  cursor: pointer;
+}
+
+.trending-posts p {
+  text-align: center;
+  color: #acb3ba;
+  font-family: "Varela Round";
+  width: 172px;
+  height: 52px;
+  margin: 0;
+}
+
+.trending-posts h4 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.trending-posts img {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  margin-left: 5px;
+}
+
+.date-title .icon {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+}

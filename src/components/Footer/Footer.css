@@ -1,0 +1,19 @@
+.footer-container {
+  margin: auto;
+  width: 1602px;
+  height: 992px;
+  background-color: #252525;
+}
+
+.heading-wrapper {
+  display: flex;
+  height: 300px;
+  width: 940px;
+  margin: 0 auto;
+}
+.lower-part {
+  display: flex;
+  height: 300px;
+  width: 940px;
+  margin: 0 auto;
+}

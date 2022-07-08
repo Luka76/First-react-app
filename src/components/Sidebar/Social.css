@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+.social-wrapper {
+  margin: 28px auto;
+  font-family: "Bitter", serif;
+  width: 301px;
+  height: 191px;
+}
+
+.social-wrapper h2 {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.sub-frame {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 301px;
+  height: 43px;
+  margin: 7px auto 7px auto;
+}
+
+.sub-frame img {
+  display: block;
+  width: 40px;
+  height: 43px;
+}
+
+.sub-frame .sub {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #363f48;
+  text-align: center;
+  text-align: center;
+  width: 123px;
+  background-color: #dddddd;
+}
+
+.sub-frame .fans {
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-align: center;
+  width: 123px;
+  background-color: #4d4382;
+}

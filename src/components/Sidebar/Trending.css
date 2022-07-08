@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+.trending-wrapper {
+  margin: auto;
+  padding: 0;
+  width: 303px;
+  height: 667px;
+  background: #4d4382;
+}
+.trending-bar {
+  display: flex;
+  justify-content: space-around;
+  height: 53px;
+  align-items: stretch;
+  align-items: center;
+  background: #1c1541;
+  color: #ffffff;
+}
+
+.trending-bar .active {
+  color: #fcc44d;
+}
+
+.trending-bar div {
+  text-decoration: underline;
+}
+
+.trending-footer {
+  background-color: #1c1541;
+  width: 302px;
+  height: 2px;
+}

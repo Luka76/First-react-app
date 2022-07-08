@@ -1,0 +1,15 @@
+.activity-wrapper {
+  margin: 17px auto;
+  background-color: #ffffff;
+  width: 303px;
+  height: 556px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notifications img {
+  display: block;
+  width: 270px;
+  height: 521px;
+}

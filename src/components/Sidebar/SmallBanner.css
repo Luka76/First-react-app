@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+.sm-banner-wrapper {
+  margin: 18px auto;
+  border: 1px solid red;
+  background-color: #dddddd;
+  width: 303px;
+  height: 167px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.sm-banner-wrapper div {
+  width: 128px;
+  height: 128px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.sm-banner-wrapper p {
+  margin: 0;
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #999999;
+}
+.sm-banner-wrapper p:first-child {
+  margin-top: 43px;
+}

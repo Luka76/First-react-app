@@ -9,12 +9,14 @@
 }
 
 .slider-title {
+  width: 590px;
   color: white;
   font-size: 24px;
   font-family: "Varela Round", sans-serif;
+  /* margin-top: 30px; */
 }
 
-#comments {
+#comments{
   display: inline-block;
 }
 
@@ -47,13 +49,13 @@
 
 .slider-image > .slider-title {
   position: absolute;
-  bottom: 60px;
+  bottom: 50px;
   left: 30px;
 }
 
 .slider-image > .slider-date {
   position: absolute;
-  bottom: 90px;
+  bottom: 130px;
   left: 30px;
 }
 

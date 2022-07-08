@@ -1,0 +1,28 @@
+.tags-wrapper {
+  margin-top: 70px;
+  margin-left: 20px;
+  width: 300px;
+  height: 167px;
+}
+.tags-wrapper h2 {
+  margin: 0 0 30px 0;
+  color: #cccccc;
+}
+
+.hashes {
+  display: flex;
+  margin: 5px;
+  gap: 3px;
+}
+
+.hash {
+  width: fit-content;
+  height: 28px;
+  background-color: #333333;
+}
+
+.hash p {
+  text-align: center;
+  margin: 2px 5px 2px 5px;
+  color: #666666;
+}
