@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "./SimpleSlider.css";
-import commentIcon from "../assets/comment-icon.svg";
-import { SliderItems } from "../components/SliderItems";
+import commentIcon from "../../assets/comment-icon.svg";
+import { SliderItems } from "../../components/Slider/SliderItems";
 
 const clickHandler = () => {
   console.log("komentari");

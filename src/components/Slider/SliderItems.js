@@ -1,8 +1,8 @@
-import firstImg from "../assets/slider-image.png";
-import secondImg from "../assets/slider-image-2.jpg";
-import thirdImg from "../assets/slider-image-3.jpg";
-import fourthImg from "../assets/slider-image-4.jpg";
-import fiveImg from "../assets/slider-image-5.jpg";
+import firstImg from "../../assets/slider-image.png";
+import secondImg from "../../assets/slider-image-2.jpg";
+import thirdImg from "../../assets/slider-image-3.jpg";
+import fourthImg from "../../assets/slider-image-4.jpg";
+import fiveImg from "../../assets/slider-image-5.jpg";
 
 export const SliderItems = [
   {

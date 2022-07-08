@@ -2,17 +2,16 @@ import React from "react";
 import Navbar from "./components/Header/Navbar";
 import Categories from "./components/Header/Categories";
 import Banner from "./components/Banner";
-import SimpleSlider from "./components/SimpleSlider";
+import SimpleSlider from "./components/Slider/SimpleSlider";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
 import Article from "./pages/Article";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Card from "./components/Card/Card";
 import Footer from "./components/Footer/Footer";
 import Trending from "./components/Sidebar/Trending";
-
 
 function App() {
   return (
@@ -21,10 +20,10 @@ function App() {
       <Categories />
       <Banner />
       <SimpleSlider />
-      <Card/>
-      <Card/>
-      <Trending/>
-      <Banner/>
+      <Card />
+      <Card />
+      <Trending />
+      <Banner />
       <Footer />
 
       <Routes>
