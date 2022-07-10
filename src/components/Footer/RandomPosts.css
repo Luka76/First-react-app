@@ -1,14 +1,14 @@
-.features-wrapper {
+.randoms-wrapper {
   width: 303px;
   height: 364px;
 }
 
-.features-wrapper h2 {
+.randoms-wrapper h2 {
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
-  margin: 0;
   color: #ffffff;
+  margin: 0;
 }

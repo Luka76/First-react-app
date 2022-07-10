@@ -22,7 +22,6 @@ function App() {
       <SimpleSlider />
       <Card />
       <Card />
-      <Trending />
       <Banner />
       <Footer />
 
