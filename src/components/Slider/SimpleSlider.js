@@ -4,10 +4,6 @@ import "./SimpleSlider.css";
 import commentIcon from "../../assets/comment-icon.svg";
 import { SliderItems } from "../../components/Slider/SliderItems";
 
-const clickHandler = () => {
-  console.log("komentari");
-};
-
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -30,6 +26,12 @@ function SamplePrevArrow(props) {
   );
 }
 
+const clickHandler = () => {
+  // const navigate = useNavigate();
+  // return navigate("/Article");
+  console.log("heh");
+};
+
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
@@ -40,6 +42,7 @@ export default class SimpleSlider extends Component {
       nextArrow: <SampleNextArrow />,
       prevArrow: <SamplePrevArrow />,
     };
+
     return (
       <div className="slider">
         <Slider {...settings}>

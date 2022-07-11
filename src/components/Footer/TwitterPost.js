@@ -5,7 +5,7 @@ const TwitterFeed = (props) => {
   return (
     <div className="tweet">
       <div className="twitter-author">
-        <img src={twitterIcon} />
+        <img src={twitterIcon} alt="twitter post" />
         <p>{props.author}</p>
       </div>
       <div className="twitter-text">

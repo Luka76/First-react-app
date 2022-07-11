@@ -1,6 +1,5 @@
 .banner {
   background: #ffffff;
-  display: flex;
   width: 940px;
   height: 120px;
   justify-content: center;
@@ -15,5 +14,9 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
-  align-items: center;
+  margin: 0;
+}
+
+.banner .first {
+  margin-top: 40px;
 }
