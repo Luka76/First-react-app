@@ -1,7 +1,7 @@
 import "./TwitterPost.css";
 import twitterIcon from "../../assets/twitter-bird.svg";
 
-const TwitterFeed = (props) => {
+const TwitterPost = (props) => {
   return (
     <div className="tweet">
       <div className="twitter-author">
@@ -15,4 +15,4 @@ const TwitterFeed = (props) => {
   );
 };
 
-export default TwitterFeed;
+export default TwitterPost;
