@@ -203,9 +203,6 @@ h2 {
   border: 0;
 }
 
-#input::placeholder {
-}
-
 ::placeholder {
   position: absolute;
   width: 100px;
