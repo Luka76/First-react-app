@@ -1,4 +1,4 @@
-import "./RandomPosts.css";
+import "./TwitterFeed.css";
 import TwitterPost from "./TwitterPost";
 
 // import { TwitterTexts } from "./TwitterTexts";

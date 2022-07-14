@@ -1,19 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
 .banner {
   background: #ffffff;
-  display: flex;
   width: 940px;
   height: 120px;
   justify-content: center;
+  display: flex;
   align-items: center;
+  justify-content: center;
   border: 1px solid #d7d7d7;
   margin: 16px auto;
 }
 
 .banner p {
-  color: #d7d7d7;
-  text-align: center;
-  font-size: 14px;
+  margin: 0;
+  font-family: "Varela Round";
+  font-style: normal;
   font-weight: 400;
+  font-size: 14px;
   line-height: 17px;
-  align-items: center;
+  background-color: #ffffff;
+  color: #d7d7d7;
+}
+
+.banner .first {
+  margin-top: 40px;
 }

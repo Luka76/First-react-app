@@ -7,7 +7,7 @@ const clickHandler = (event) => {
 
 const Navbar = () => {
   return (
-    <div className="containter">
+    <div className="container">
       <div className="nav">
         <a href="/" className="site-title">
           Kenaz

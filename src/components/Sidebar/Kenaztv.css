@@ -19,6 +19,11 @@
   color: #363f48;
 }
 
+.video-description {
+  margin-top: 17px;
+  margin-left: 32px;
+}
+
 .video-description p {
   font-family: "Varela Round";
   font-style: normal;
@@ -30,6 +35,8 @@
 
 .video-description h2 {
   margin: 0;
+  display: flex;
+
   font-family: "Varela Round";
   font-style: normal;
   font-weight: 400;

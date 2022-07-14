@@ -1,6 +1,12 @@
-.nav {
+.container {
   background-color: #4f4f4f;
   width: 1600px;
+  height: 53px;
+  margin: 0 auto;
+}
+.nav {
+  background-color: #4f4f4f;
+  width: 940px;
   margin: 0 auto;
   height: 53px;
   color: white;
@@ -15,22 +21,16 @@
   font-size: 2rem;
 }
 
-.nav ul {
+.nav ul li {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
+  display: inline-block;
+  padding-right: 10px;
   gap: 1rem;
 }
 img {
   display: block;
-}
-.nav img {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .nav a {

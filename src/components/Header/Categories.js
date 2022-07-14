@@ -10,21 +10,23 @@ const Categories = () => {
   };
 
   return (
-    <div className="bar">
-      <ul>
-        {CategoryItems.map((item) => {
-          return (
-            <li
-              className={isActive === item.category ? "" : `${item.category}`}
-              onClick={isActiveHandler}
-              title={item.title}
-              key={item.title}
-            >
-              <a href="/">{item.title}</a>
-            </li>
-          );
-        })}
-      </ul>
+    <div className="bar-container">
+      <div className="bar">
+        <ul>
+          {CategoryItems.map((item) => {
+            return (
+              <li
+                className={isActive === item.category ? "" : `${item.category}`}
+                onClick={isActiveHandler}
+                title={item.title}
+                key={item.title}
+              >
+                <a href="/">{item.title}</a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </div>
   );
 };

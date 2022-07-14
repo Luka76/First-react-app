@@ -31,6 +31,7 @@
 }
 
 .sub-frame .sub {
+  display: flex;
   font-family: "Bitter";
   font-style: normal;
   font-weight: 700;
@@ -38,12 +39,16 @@
   line-height: 18px;
   color: #363f48;
   text-align: center;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   width: 123px;
   background-color: #dddddd;
 }
 
 .sub-frame .fans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Varela Round";
   font-style: normal;
   font-weight: 400;

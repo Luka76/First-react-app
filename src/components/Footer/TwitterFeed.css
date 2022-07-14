@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+.twitter {
+  width: 296px;
+  height: 320px;
+}
+.twitter h2 {
+  margin: 0 0 23px 0;
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #ffffff;
+}

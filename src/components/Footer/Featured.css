@@ -12,3 +12,7 @@
   margin: 0;
   color: #ffffff;
 }
+
+.features-wrapper p {
+  text-align: left;
+}

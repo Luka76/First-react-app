@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
+.comment {
+  width: 560px;
+  height: 85px;
+  margin: 45px auto;
+  display: flex;
+}
+
+.comment img {
+  display: block;
+  width: 57px;
+  height: 58px;
+  margin-right: 21px;
+}
+
+.name-date {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  height: fit-content;
+}
+
+.name-date .name {
+  margin: 0;
+  width: fit-content;
+  text-decoration: none;
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  display: flex;
+  align-items: center;
+  color: #4d4382;
+}
+
+.name-date .date {
+  margin: 0;
+  font-family: "Varela";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  /* identical to box height, or 182% */
+
+  display: flex;
+  align-items: center;
+
+  color: #666666;
+}
+
+.name-date .reply {
+  margin-left: 210px;
+  font-family: "Varela Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  cursor: pointer;
+  color: #4d4382;
+}
+
+.profile p {
+  margin: 0;
+}
+
+.profile .text {
+  margin-top: 10px;
+  font-family: "Varela";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* or 154% */
+
+  display: flex;
+  align-items: center;
+
+  color: #444444;
+}
